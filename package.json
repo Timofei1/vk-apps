@@ -1,13 +1,14 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
+  "name": "vk-apps",
+  "version": "2.1.1",
   "description": "",
   "main": "index.js",
+  "homepage": "https://timofei1.github.io/vk-apps/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-padges -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
